@@ -1,0 +1,48 @@
+.weather{
+    max-width: 400px;
+    background-color: rgba(69, 90, 100, 0.75);
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    backdrop-filter: blur(10px);
+}
+
+.weather h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.weather-icon{
+    width: 150px;
+}
+
+.weather-data{
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.weather-data .data{
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.weather-data .data p{
+    font-size: 1.5rem;
+}
+
+.weather-data .data span{
+    font-size: 0.9rem;
+    display: block;
+}
+
+
+.weather-data .data img{
+    width: 26px;
+}
